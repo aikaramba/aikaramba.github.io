@@ -35,3 +35,12 @@ html {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EFF2F7', endColorstr='#D2D1D5',GradientType=0 ); /* IE6-9 */
   /*background-attachment: fixed;*/
 }
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
