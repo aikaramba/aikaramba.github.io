@@ -3,6 +3,8 @@ body {
   /*overflow: hidden;*/
   overflow-x: hidden;
   overflow-y: hidden;
+
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
 }
 
 html,body { height:100%; }
@@ -43,4 +45,18 @@ html {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.box-card {
+  padding: 1vw;
+  padding-left: 2vw;
+  padding-bottom: 2vw;
+  margin-bottom: 1vw;
+}
+
+.article-date {
+  position:relative;
+  bottom:0;
+  right:0;
+  display: inline-block;
 }
