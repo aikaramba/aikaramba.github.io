@@ -15,7 +15,7 @@ h1 {
    text-align: center;
 }
 
-canvas {
+#backgroundCanvas {
   top: 0;
   position: absolute;
   z-index: -5;

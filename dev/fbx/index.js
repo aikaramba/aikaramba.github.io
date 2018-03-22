@@ -67,8 +67,8 @@ function init() {
     window.addEventListener( 'resize', onWindowResize, false );
 
     // stats
-    stats = new Stats();
-    container.appendChild( stats.dom );
+    // stats = new Stats();
+    // container.appendChild( stats.dom );
 }
 function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;
@@ -84,10 +84,10 @@ function animate() {
         }
     }
     renderer.render( scene, camera );
-    stats.update();
+    // stats.update();
 }
 
-let dropzone = document.getElementById('dropzone');
+let dropzone = document.getElementById('mainCanvas');
 
 dropzone.ondragover = function(e) {
   e.preventDefault();
